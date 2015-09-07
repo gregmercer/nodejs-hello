@@ -1,5 +1,4 @@
-# nodejs-hello
-Simple Docker and Nodejs example
+# nodejs-hello - a simple Docker and Nodejs example
 
 You'll need to install docker-machine (using 'Docker Quickstart Terminal')
 ```
