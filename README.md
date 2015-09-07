@@ -6,9 +6,8 @@ You'll need to install docker-machine (using 'Docker Quickstart Terminal')
 https://www.docker.com/toolbox
 ```
 
-Starting your docker-machine:
+Starting your docker-machine, go to Launchpad on Mac and run:
 ```
-go to Launchpad on Mac and run: 
 'Docker Quickstart Terminal'
 ```
 
@@ -53,4 +52,6 @@ docker-machine ip default
 ```
 
 To Open in browser:
+```
 http://<ip-address>:8080
+```
