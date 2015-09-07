@@ -1,4 +1,4 @@
-# nodejs-hello - a simple Docker and Nodejs example
+# nodejs-restify - a simple Docker and Nodejs Restify example
 
 You'll need to install docker-machine (using 'Docker Quickstart Terminal')
 ```
@@ -12,17 +12,17 @@ Starting your docker-machine, go to Launchpad on Mac and run:
 
 Download code:
 ```
-git clone git@github.com:gregmercer/nodejs-hello.git
+git clone git@github.com:gregmercer/nodejs-restify.git
 ```
 
-Change to the nodejs-hello directory:
+Change to the nodejs-restify directory:
 ```
-cd nodejs-hello
+cd nodejs-restify
 ```
 
 To Build:
 ```
-docker build -t gmercer/nodejs-hello .
+docker build -t gmercer/nodejs-restify .
 ```
 
 To Verify build - check new image exists:
@@ -32,7 +32,7 @@ docker images
 
 To Run in background (-d) using port 8080:
 ```
-docker run -d -p 8080:8080 gmercer/nodejs-hello
+docker run -d -p 8080:8080 gmercer/nodejs-restify
 ```
 
 To Verify it is running:

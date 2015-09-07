@@ -1,9 +1,9 @@
 {
-  "name": "hello-world",
-  "description": "hello world test app",
+  "name": "restify-example",
+  "description": "restify example",
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "express": "3.x"
+    "restify": "~2.8.3"
   }
 }
